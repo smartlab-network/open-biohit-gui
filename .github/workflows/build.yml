@@ -2,11 +2,11 @@ name: Build BiohitPipettorPlus
 
 on:
   push:
-    branches: [ dev_advait ]
+    branches: [ main ]
     tags:
       - 'v*'  # Trigger on version tags like v1.0.0
   pull_request:
-    branches: [ dev_advait ]
+    branches: [ main ]
   workflow_dispatch:  # Allows manual trigger
 
 jobs:

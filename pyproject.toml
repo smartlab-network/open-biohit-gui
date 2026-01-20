@@ -3,7 +3,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "open-biohit-plus"
+name = "open-biohit-gui"
 version = "0.0.1"
 description = "Designed to be used with pipettor_package following similar structure to open-biohit"
 authors = ["Advait Lath <advaitlath1@gmail.com>"]
