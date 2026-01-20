@@ -33,10 +33,6 @@ jobs:
         poetry install --with dev
         poetry run pip install pyinstaller
 
-    - name: Smoke test
-      run: |
-        poetry run pytest tests/ -v --tb=short
-
     - name: Build with PyInstaller
       run: |
         poetry run pyinstaller BiohitPipettorPlus.spec

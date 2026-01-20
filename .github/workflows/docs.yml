@@ -2,7 +2,7 @@ name: Build and Deploy Docs
 
 on:
   push:
-    branches: [ dev_advait ]
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
