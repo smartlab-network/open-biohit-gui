@@ -4,13 +4,13 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "open-biohit-gui"
-version = "0.0.1"
+version = "0.0.1" # This will be overridden by your GitHub Action tag
 description = "Designed to be used with pipettor_package following similar structure to open-biohit"
 authors = ["Advait Lath <advaitlath1@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "biohit_pipettor_plus", from = "src"}]
-repository = "https://github.com/smartlab-network/open-biohit-plus"
+repository = "https://github.com/smartlab-network/open-biohit-gui"
 
 [tool.poetry.scripts]
 pipettor-gui = "biohit_pipettor_plus.gui.gui2:main"
