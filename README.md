@@ -37,7 +37,6 @@ Built with:
 
 
 # Biohit Roboline Python Interface
-will change with pipettor in use
+wTo learn more about the default pipettor in use
 [![docs](https://img.shields.io/badge/docs-passing-brightgreen.svg)](https://umg-pharma-lab-automation.pages.gwdg.de/biohit-pipettor-python/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-Please visit the [documentation](https://umg-pharma-lab-automation.pages.gwdg.de/biohit-pipettor-python/).
