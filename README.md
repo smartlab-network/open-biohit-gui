@@ -1,8 +1,8 @@
-# Biohit pipettor plus
+# Biohit pipettor gui
 A modern GUI application for controlling electronic pipettors with advanced 
 workflow capabilities. Currently, in use with Biohit but can be used with other pipettors as well.
 See more in documentation
-[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://smartlab-network.github.io/open-biohit-plus/)
+[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://smartlab-network.github.io/open-biohit-gui/)
 
 ## Features
 1. Interactive GUI with Custom Deck, slot, and labware. Easy definition and visualization.
@@ -14,17 +14,17 @@ See more in documentation
 
 
 ## Download
-[Download Latest Release (v1.0.2)](https://github.com/smartlab-network/open-biohit-plus/releases/latest)
+[Download Latest Release](https://github.com/smartlab-network/open-biohit-gui/releases/latest)
 
 ## Installation
-1. Download `BiohitPipettorPlus-Windows.zip` from the [Releases](https://github.com/smartlab-network/open-biohit-plus/releases) page
+1. Download `BiohitPipettorPlus-Windows.zip` from the [Releases](https://github.com/smartlab-network/open-biohit-gui/releases) page
 2. Extract the zip file to any folder on your computer
 3. Run `BiohitPipettorPlus.exe`
 4. Build deck and workflows 
 
 ## Working Tutorial
-To see the Biohit Pipettor Plus in action, watch the full walkthrough below:
-[![Biohit Pipettor Plus Tutorial](https://img.youtube.com/vi/gM6Kxg_iGMc/0.jpg)](https://www.youtube.com/watch?v=gM6Kxg_iGMc)
+To see the Biohit Pipettor gui in action, watch the full walkthrough below:
+[![Biohit Pipettor GUI Tutorial](https://img.youtube.com/vi/gM6Kxg_iGMc/0.jpg)](https://www.youtube.com/watch?v=gM6Kxg_iGMc)
 
 ## Development
 Built with:
