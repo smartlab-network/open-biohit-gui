@@ -36,7 +36,7 @@ Installing a new pipettor
 ---------------------------
 
 A package similar to open-biohit must be created with similar pipettor functions. Mock pipettor should also be
-considered to allow virtual testing. Clone the open-biohit-plus package and change import in pipettor_plus.py file.
+considered to allow virtual testing. Clone the open-biohit-gui package and change import in pipettor_plus.py file.
 Change pyproject.toml and spec file accordingly.  Make sure python in use matches the bit version of DLL file
 
 Go through the documentation of `open-biohit (biohit-pipettor-python) <https://umg-pharma-lab-automation.pages.gwdg.de/biohit-pipettor-python/>`_

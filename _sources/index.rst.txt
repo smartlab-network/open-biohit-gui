@@ -7,8 +7,8 @@ for controlling electronic pipettors with advanced workflow capabilities.
 Quick Links
 -----------
 
-* `Download Latest Release (v1.0.2) <https://github.com/smartlab-network/open-biohit-plus/releases/latest>`_
-* `GitHub Repository <https://github.com/smartlab-network/open-biohit-plus>`_
+* `Download Latest Release <https://github.com/smartlab-network/open-biohit-gui/releases/latest>`_
+* `GitHub Repository <https://github.com/smartlab-network/open-biohit-gui>`_
 
 Working Tutorial
 ------------------
@@ -20,7 +20,7 @@ Working Tutorial
 Overview
 --------
 
-Biohit Pipettor Plus is a comprehensive solution for automated pipetting operations.
+Biohit Pipettor GUI is a comprehensive solution for automated pipetting operations.
 While currently in use with Biohit electronic pipettors, it can be adapted for use
 with other pipettor brands as well.
 
@@ -56,7 +56,7 @@ Support
 If you encounter any issues or have questions:
 
 * Check the :doc:`troubleshooting` guide
-* Open an issue on `GitHub <https://github.com/smartlab-network/open-biohit-plus/issues>`_
+* Open an issue on `GitHub <https://github.com/smartlab-network/open-biohit-gui/issues>`_
 
 Indices and Tables
 ==================
