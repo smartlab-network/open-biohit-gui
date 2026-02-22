@@ -41,7 +41,7 @@ jobs:
     - name: Download .NET 6 x86 Runtime installer
       run: |
         Invoke-WebRequest `
-          -Uri "https://download.visualstudio.microsoft.com/download/pr/a1f9b848-2f34-4799-b827-46c59f7d4427/9d439c2f1a2fb5cc6ac98a6c4eba8299/dotnet-runtime-6.0.36-win-x86.exe" `
+          -Uri "https://aka.ms/dotnet/6.0/dotnet-runtime-win-x86.exe" `
           -OutFile "${{ github.workspace }}\dotnet-runtime-installer.exe"
 
     - name: Build with PyInstaller
