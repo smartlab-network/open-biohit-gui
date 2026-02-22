@@ -20,17 +20,13 @@ def check_and_install_dotnet():
     installer = Path(sys.executable).parent / "dotnet-runtime-installer.exe"
 
     if installer.exists():
-        import tkinter as tk
-        from tkinter import messagebox
-        root = tk.Tk()
-        root.withdraw()
-        messagebox.showinfo(
+        import ctypes
+        ctypes.windll.user32.MessageBoxW(
+            0,
+            ".NET 6 Runtime is required and will now be installed.\nThis may take a minute. Please wait.",
             "Installing .NET 6 Runtime",
-            ".NET 6 Runtime is required and will now be installed.\n"
-            "This may take a minute. Please wait."
+            0x40  # MB_ICONINFORMATION flag (shows blue i icon)
         )
-        root.destroy()
-
         result = subprocess.run(
             [str(installer), "/install", "/quiet", "/norestart"],
             timeout=120
@@ -57,13 +53,13 @@ def check_and_install_dotnet():
 
 
 def _show_error(message):
-    import tkinter as tk
-    from tkinter import messagebox
-    root = tk.Tk()
-    root.withdraw()
-    messagebox.showerror("Missing Dependency", message)
-    root.destroy()
-
+    import ctypes
+    ctypes.windll.user32.MessageBoxW(
+        0,
+        message,  # message body
+        "Missing Dependency",  # title
+        0x10  # MB_ICONERROR flag (shows red X icon)
+    )
 
 if __name__ == "__main__":
     if check_and_install_dotnet():
