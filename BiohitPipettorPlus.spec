@@ -7,11 +7,12 @@ pkg_dir = os.path.dirname(biohit_pipettor.__file__)
 dll_path = os.path.join(pkg_dir, "include", "InstrumentLib.dll")
 
 a = Analysis(
-    ['src\\biohit_pipettor_plus\\gui\\gui2.py'],
-    pathex=[],
+    ['src\\biohit_pipettor_plus\\bootstrap.py'],
+    pathex=['src'],
     binaries=[(dll_path, '.')],
-    datas=[],
-    hiddenimports=[],
+    datas=[('dotnet-runtime-installer.exe', '.'),  # <-- bundle the .NET installer
+    ],
+    hiddenimports=['biohit_pipettor_plus.gui.gui2'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
