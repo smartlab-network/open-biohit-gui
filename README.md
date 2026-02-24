@@ -16,11 +16,24 @@ See more in documentation
 ## Download
 [Download Latest Release](https://github.com/smartlab-network/open-biohit-gui/releases/latest)
 
-## Installation
-1. Download `BiohitPipettorPlus-Windows.zip` from the [Releases](https://github.com/smartlab-network/open-biohit-gui/releases) page
-2. Extract the zip file to any folder on your computer
-3. Run `BiohitPipettorPlus.exe`
-4. Build deck and workflows 
+## Install via PyPI (Recommended for Developers)
+Requires **Python 3.10 (32-bit)**  
+Download Python: https://www.python.org/downloads/release/python-3100/
+
+### Windows
+
+1. py -3.10 -m venv .venv
+2. .venv\Scripts\activate
+3. python -m pip install --upgrade pip
+4. pip install open-biohit-gui
+5. pipettor-gui
+
+### Mac/Linux
+1. python3.10 -m venv .venv
+2. source .venv/bin/activate
+3. python -m pip install --upgrade pip
+4. pip install open-biohit-gui
+5. pipettor-gui
 
 ## Working Tutorial
 To see the Biohit Pipettor gui in action, watch the full walkthrough below:
@@ -37,6 +50,6 @@ Built with:
 
 
 # Biohit Roboline Python Interface
-wTo learn more about the default pipettor in use
+To learn more about the default pipettor in use
 [![docs](https://img.shields.io/badge/docs-passing-brightgreen.svg)](https://umg-pharma-lab-automation.pages.gwdg.de/biohit-pipettor-python/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)

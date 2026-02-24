@@ -30,7 +30,7 @@ Since IndividualPipetteHolder contains pick_tip attribute, a simple autoselect f
 without selecting any individualHolder. For Pick_tips operation, holder with has_tip = TRUE are selected and opposite
 for Return_tips. To assist the user, non-usable holders for the operation are automatically disabled.
 
-**For some reason for Pick Tip operation, the biohit pipettor only detects tips if i pass 50 as pick height**
+**For some reason for Pick Tip operation, the biohit pipettor only detects tips if i pass 50 as pick height.**
 The use of actual height is thus commented out in the code
 
 .. _liquid_handling_operation:

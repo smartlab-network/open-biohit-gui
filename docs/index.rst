@@ -50,6 +50,37 @@ For understanding Graphical User Interface (GUI) and its backend code
    troubleshooting
    api.rst
 
+Package Install
+---------------
+
+The package can be installed from PyPI using a virtual environment with **Python 3.10 (32-bit)**.
+
+`Download Python 3.10 (32-bit) <https://www.python.org/downloads/release/python-3100/>`_
+
+**Windows**
+
+.. code-block:: bash
+
+   py -3.10 -m venv .venv
+   .venv\Scripts\activate
+   python -m pip install --upgrade pip
+   pip install open-biohit-gui
+   pipettor-gui
+
+**macOS / Linux**
+
+.. code-block:: bash
+
+   python3.10 -m venv .venv
+   source .venv/bin/activate
+   python -m pip install --upgrade pip
+   pip install open-biohit-gui
+   pipettor-gui
+
+.. note::
+
+   Command syntax may vary slightly depending on your system configuration.
+
 Support
 -------
 
