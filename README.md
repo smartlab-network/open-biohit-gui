@@ -17,7 +17,8 @@ See more in documentation
 [Download Latest Release](https://github.com/smartlab-network/open-biohit-gui/releases/latest)
 
 ## Install via PyPI (Recommended for Developers)
-Requires **Python 3.10 (32-bit)**  
+Requires **Python 3.09 - 3.13 (32-bit).** 
+Example python3.10  
 Download Python: https://www.python.org/downloads/release/python-3100/
 
 ### Windows
@@ -41,7 +42,7 @@ To see the Biohit Pipettor gui in action, watch the full walkthrough below:
 
 ## Development
 Built with:
-    - Python 3.10 
+    - Python 
     - ttkbootstrap and Tkinter (Modern UI) 
     - matplotlib (Data visualization)
 
