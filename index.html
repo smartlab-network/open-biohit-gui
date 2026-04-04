@@ -87,10 +87,10 @@ with other pipettor brands as well.</p>
 </ul>
 </div>
 </section>
-<section id="package-install">
-<h2>Package Install<a class="headerlink" href="#package-install" title="Link to this heading">¶</a></h2>
-<p>The package can be installed from PyPI using a virtual environment with <strong>Python (3.9-3.13) (32-bit)</strong>.
-<a class="reference external" href="https://www.python.org/downloads/release/python-3100/">example python3.10. Download Python 3.10 (32-bit)</a></p>
+<section id="installation-guided">
+<h2>Installation Guided<a class="headerlink" href="#installation-guided" title="Link to this heading">¶</a></h2>
+<p>The package can be installed from PyPI using a virtual environment with <strong>Python (3.10-3.13) (32-bit)</strong>.
+example python3.10. <a class="reference external" href="https://www.python.org/downloads/release/python-3100/">Download Python 3.10 (32-bit)</a></p>
 <p><strong>Windows</strong></p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>py<span class="w"> </span>-3.10<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>.venv
 .venv<span class="se">\S</span>cripts<span class="se">\a</span>ctivate
@@ -109,8 +109,28 @@ pipettor-gui
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Command syntax may vary slightly depending on your system configuration.</p>
+<p>Command syntax may vary slightly depending on your system configuration.
+On macOS, you may need to set the following environment variables before running:</p>
 </div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">PYTHONNET_RUNTIME</span><span class="o">=</span>coreclr
+<span class="nb">export</span><span class="w"> </span><span class="nv">DYLD_LIBRARY_PATH</span><span class="o">=</span>/usr/local/share/dotnet:<span class="nv">$DYLD_LIBRARY_PATH</span>
+pipettor-gui
+</pre></div>
+</div>
+</section>
+<section id="install-from-github-advanced">
+<h2>Install from GitHub (Advanced)<a class="headerlink" href="#install-from-github-advanced" title="Link to this heading">¶</a></h2>
+<p>For developers who want to contribute or run the latest unreleased code:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/smartlab-network/open-biohit-gui.git
+<span class="nb">cd</span><span class="w"> </span>open-biohit-gui
+python3.10<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>.venv
+<span class="nb">source</span><span class="w"> </span>.venv/bin/activate<span class="w">        </span><span class="c1"># On Windows: .venv\Scripts\activate</span>
+pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>.
+pipettor-gui
+</pre></div>
+</div>
+<p>The main entry point is <code class="docutils literal notranslate"><span class="pre">pipettor-gui</span></code>, which launches the GUI directly.
+For macOS, PYTHONNET_RUNTIME set up (as shown above) might be required</p>
 </section>
 <section id="support">
 <h2>Support<a class="headerlink" href="#support" title="Link to this heading">¶</a></h2>
@@ -148,7 +168,8 @@ pipettor-gui
 </ul>
 </li>
 <li><a class="reference internal" href="#user-guide">User Guide</a></li>
-<li><a class="reference internal" href="#package-install">Package Install</a></li>
+<li><a class="reference internal" href="#installation-guided">Installation Guided</a></li>
+<li><a class="reference internal" href="#install-from-github-advanced">Install from GitHub (Advanced)</a></li>
 <li><a class="reference internal" href="#support">Support</a></li>
 </ul>
 </li>

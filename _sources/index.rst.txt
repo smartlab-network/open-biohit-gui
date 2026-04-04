@@ -50,11 +50,11 @@ For understanding Graphical User Interface (GUI) and its backend code
    troubleshooting
    api.rst
 
-Package Install
----------------
+Installation Guided
+-------------------------
 
-The package can be installed from PyPI using a virtual environment with **Python (3.9-3.13) (32-bit)**.
-`example python3.10. Download Python 3.10 (32-bit) <https://www.python.org/downloads/release/python-3100/>`_
+The package can be installed from PyPI using a virtual environment with **Python (3.10-3.13) (32-bit)**.
+example python3.10. `Download Python 3.10 (32-bit) <https://www.python.org/downloads/release/python-3100/>`_
 
 **Windows**
 
@@ -79,6 +79,30 @@ The package can be installed from PyPI using a virtual environment with **Python
 .. note::
 
    Command syntax may vary slightly depending on your system configuration.
+   On macOS, you may need to set the following environment variables before running:
+
+.. code-block:: bash
+
+  export PYTHONNET_RUNTIME=coreclr
+  export DYLD_LIBRARY_PATH=/usr/local/share/dotnet:$DYLD_LIBRARY_PATH
+  pipettor-gui
+
+Install from GitHub (Advanced)
+-------------------------------
+
+For developers who want to contribute or run the latest unreleased code:
+
+.. code-block:: bash
+
+   git clone https://github.com/smartlab-network/open-biohit-gui.git
+   cd open-biohit-gui
+   python3.10 -m venv .venv
+   source .venv/bin/activate        # On Windows: .venv\Scripts\activate
+   pip install -e .
+   pipettor-gui
+
+The main entry point is ``pipettor-gui``, which launches the GUI directly.
+For macOS, PYTHONNET_RUNTIME set up (as shown above) might be required
 
 Support
 -------
