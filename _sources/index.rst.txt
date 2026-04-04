@@ -50,7 +50,7 @@ For understanding Graphical User Interface (GUI) and its backend code
    troubleshooting
    api.rst
 
-Installation Guided
+Installation Guide
 -------------------------
 
 The package can be installed from PyPI using a virtual environment with **Python (3.10-3.13) (32-bit)**.
