@@ -53,9 +53,8 @@ For understanding Graphical User Interface (GUI) and its backend code
 Package Install
 ---------------
 
-The package can be installed from PyPI using a virtual environment with **Python 3.10 (32-bit)**.
-
-`Download Python 3.10 (32-bit) <https://www.python.org/downloads/release/python-3100/>`_
+The package can be installed from PyPI using a virtual environment with **Python (3.9-3.13) (32-bit)**.
+`example python3.10. Download Python 3.10 (32-bit) <https://www.python.org/downloads/release/python-3100/>`_
 
 **Windows**
 
