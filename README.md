@@ -17,24 +17,7 @@ See more in documentation
 [Download Latest Release](https://github.com/smartlab-network/open-biohit-gui/releases/latest)
 
 ## Install via PyPI (Recommended for Developers)
-Requires **Python 3.09 - 3.13 (32-bit).** 
-Example python3.10  
-Download Python: https://www.python.org/downloads/release/python-3100/
-
-### Windows
-
-1. py -3.10 -m venv .venv
-2. .venv\Scripts\activate
-3. python -m pip install --upgrade pip
-4. pip install open-biohit-gui
-5. pipettor-gui
-
-### Mac/Linux
-1. python3.10 -m venv .venv
-2. source .venv/bin/activate
-3. python -m pip install --upgrade pip
-4. pip install open-biohit-gui
-5. pipettor-gui
+See the [installation guide](https://smartlab-network.github.io/open-biohit-gui/#package-install) in the documentation.
 
 ## Working Tutorial
 To see the Biohit Pipettor gui in action, watch the full walkthrough below:
